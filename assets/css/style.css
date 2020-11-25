@@ -1386,6 +1386,80 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Organization Section
+--------------------------------------------------------------*/
+#organization {
+  padding: 60px 0;
+}
+
+#organization .card {
+  border: none;
+  border-radius: 5px;
+  transition: all  0.3s ease-in-out;
+  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+}
+
+#organization .card:hover {
+  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+}
+
+#organization .card hr {
+  margin: 25px 0;
+}
+
+#organization .card .card-title {
+  margin: 10px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+#organization .card .card-price {
+  font-size: 32px;
+  margin: 0;
+}
+
+#organization .card ul li {
+  margin-bottom: 20px;
+}
+
+#organization .card .text-muted {
+  opacity: 0.7;
+}
+
+#organization .card .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #f82249;
+  border: 0;
+  color: #fff;
+}
+
+#organization .card .btn:hover {
+  background-color: #e0072f;
+}
+
+#organization #buy-ticket-modal input, #organization #buy-ticket-modal select {
+  border-radius: 0;
+}
+
+#organization #buy-ticket-modal .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #f82249;
+  border: 0;
+  color: #fff;
+}
+
+#organization #buy-ticket-modal .btn:hover {
+  background-color: #e0072f;
+}
+
+/*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
 #contact {
